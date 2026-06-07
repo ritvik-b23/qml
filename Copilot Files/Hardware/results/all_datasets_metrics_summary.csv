@@ -1,0 +1,7 @@
+Dataset,Accuracy,F1,AUPRC,ROC_AUC,TPR@0.1%FPR,TPR@1%FPR,TN,FP,FN,TP,Model,BestParams,Status
+train_test_network_hardware,0.9524035158378544,0.9690031320876985,0.9592405264241461,0.9554190909373156,0.0028873917228103944,0.0058679251140985435,8798.0,1202.0,807.0,31402.0,LogReg,{'C': 0.1},
+train_test_network_hardware,0.9996920088132862,0.9997982149786574,0.9999998063163336,0.9999993790555435,0.9999068583315223,1.0,9990.0,10.0,3.0,32206.0,RandomForest,"{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 400}",
+train_test_network_hardware,0.9995972422942975,0.9997360863152992,0.9999998429110121,0.9999994939302679,0.9998137166630445,1.0,9993.0,7.0,10.0,32199.0,XGBoost,"{'learning_rate': 0.05, 'max_depth': 6, 'n_estimators': 350}",
+train_test_network_hardware,,,,,,,,,,,QSVM,,SKIPPED: cannot import name 'FakeTorinoV2' from 'qiskit_ibm_runtime.fake_provider' (/home/ritvik/Code/lib/python3.12/site-packages/qiskit_ibm_runtime/fake_provider/__init__.py)
+train_test_network_hardware,,,,,,,,,,,QNN/VQC,,SKIPPED: cannot import name 'FakeTorinoV2' from 'qiskit_ibm_runtime.fake_provider' (/home/ritvik/Code/lib/python3.12/site-packages/qiskit_ibm_runtime/fake_provider/__init__.py)
+train_test_network_hardware,,,,,,,,,,,MetaRF_Fusion,,"SKIPPED: required outputs missing (QSVM, QNN_Base)"
